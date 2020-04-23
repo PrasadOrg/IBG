@@ -6,12 +6,23 @@ package com.om.ibg;
 
 public class Testing implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Testing() {
-    }
+	private java.lang.String one;
 
+	public Testing() {
+	}
 
+	public java.lang.String getOne() {
+		return this.one;
+	}
 
+	public void setOne(java.lang.String one) {
+		this.one = one;
+	}
+
+	public Testing(java.lang.String one) {
+		this.one = one;
+	}
 
 }
